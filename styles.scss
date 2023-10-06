@@ -1,0 +1,26 @@
+// Import Bootstrap SCSS
+@import "bootstrap/scss/bootstrap";
+
+// Your custom styles
+
+// Override text color for navbar links
+.navbar {
+    background-color: black; // Black background color
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; // White text color
+}
+
+#About {
+    background-color: black;
+    color: white; /* Set text color to white for better contrast */
+}
+
+.footer {
+    background-color: #888 !important;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
